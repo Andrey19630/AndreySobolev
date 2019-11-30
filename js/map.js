@@ -12,7 +12,13 @@ function initBackButton() {
         event.preventDefault();
     })
 }
+init();
 
+function init() {
+    constructor();
+    initBackButton();
+    handleMapSelection();
+}
 
 
 function constructor() {
