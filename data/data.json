@@ -1,0 +1,29 @@
+{
+    "type": "FeatureCollection",
+    "name": "ino",
+    "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {"id": 1, "title": "Козья Слобода"},
+            "geometry": {"type": "Point", "coordinates": [49.098647, 55.816678]}
+        },
+        {
+            "type": "Feature",
+            "properties": {"id": 2, "title": "Казанский Государственый Университет"},
+            "geometry": {"type": "Point", "coordinates": [49.093972, 55.816455]}
+        }, {
+            "type": "Feature",
+            "properties": {"id": 3, "title": "Казанский Кремль"},
+            "geometry": {"type": "Point", "coordinates": [49.105912, 55.799684]}
+        }, {
+            "type": "Feature",
+            "properties": {"id": 4, "title": "Стадион Рубин"},
+            "geometry": {"type": "Point", "coordinates": [49.099881, 55.797462]}
+        }, {
+            "type": "Feature",
+            "properties": {"id": 5, "title": "Казань-Арена"},
+            "geometry": {"type": "Point", "coordinates": [49.160921, 55.821594]}
+        }
+    ]
+}
