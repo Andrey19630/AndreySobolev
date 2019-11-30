@@ -13,14 +13,7 @@ function initBackButton() {
     })
 }
 
-init();
 
-function init() {
-    constructor();
-    initBackButton();
-    handleMapSelection();
-    addPointsToMap();
-}
 
 function constructor() {
     map = L.map('map').setView([61.6, 31.1], 8);
