@@ -72,3 +72,4 @@ function chooseAndAddLayerLabelsToMap(chosenMap) {
 function addLayerLabelsToMap(labels) {
     layerLabels = L.esri.basemapLayer(labels);
     map.addLayer(layerLabels);
+}   
