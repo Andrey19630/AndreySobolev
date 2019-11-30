@@ -72,13 +72,3 @@ function chooseAndAddLayerLabelsToMap(chosenMap) {
 function addLayerLabelsToMap(labels) {
     layerLabels = L.esri.basemapLayer(labels);
     map.addLayer(layerLabels);
-}
-function addPointsToMap() {
-    $.getJSON("data/data.json", point => {
-        L.geoJSON(point, {
-            pointToLayer: (feature, coordinates) => {
-                return L.marker(coordinates).bindPopup(feature.properties.title)
-            }
-        }).addTo(map);
-    });
-}
